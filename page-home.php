@@ -7,6 +7,7 @@
 
     <div class="col-sm">
       <h2>Página Principal Test RomeroLoconte</h2>
+      <p>otro texto</p>
     </div>
 
   </div>
