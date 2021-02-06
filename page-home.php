@@ -6,7 +6,7 @@
   <div class="row">
 
     <div class="col-sm">
-      <h2>Página Principal</h2>
+      <h2>Página Principal Test</h2>
     </div>
 
   </div>
