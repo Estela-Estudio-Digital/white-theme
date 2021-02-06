@@ -1,0 +1,24 @@
+// Este archivo se PRECOPILA con PREPROS para que genere el archivo minificado ../CSS/MAIN.CSS que es el que consime wordpress
+/*
+ La configuración de PREPROS para este archivo debe ser
+ ./SCSS/MAIN.SCSS -> ./CSS/MAIN.CSS
+*/
+
+@charset 'UTF-8';
+@import "utils/variables";
+@import "utils/functions";
+@import "utils/media";
+@import "utils/mixins";
+@import "utils/placeholders";
+
+@import "base/reset";
+@import "base/typography";
+@import "base/global";
+
+// Puedes importar piezas de estilos separadas por tipo:
+
+// Componentes ===============
+// @import "components/buttons.scss";
+
+// PÁGINAS ==================
+// @import "pages/home.scss";

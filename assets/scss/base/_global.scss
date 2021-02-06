@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  font-family: $primary-font;
+  line-height: 1.2;
+  color: $brand-primary-color;
+  overflow-x: hidden;
+}
+
+a {
+  color: $brand-primary-color;
+  transition: .2s ease-in-out all;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    color: $brand-tertiary-color;
+  }
+  &:focus {
+    text-decoration: none;
+  }
+}
+ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+strong, .font-bold {
+  font-weight: $font-bold;
+}
+
+label {
+  font-weight: $font-regular;
+}
+
+.content-wrapper {
+  min-height: calc(100vh - 360px);
+}
+
+label.error{
+  color: $brand-tertiary-color;
+  font-size: 11px !important;
+}
+
+.form-control,
+.input-group-text {
+  border: none;
+  border-bottom: 1px solid #ced4da;
+}
+
+.form-control:focus {
+  border-color: #ced4da;
+  box-shadow: 0 0 0 0.2rem rgba(#ced4da, .25);
+  ;
+}
+
+
+.btn-primary.disabled {
+  background-color: $brand-primary-color;
+}
+
+@each $name, $color in $palette {
+  .bg-#{$name} {
+      background-color: $color; 
+  }
+  .text-#{$name}{
+    color: $color;
+  }
+}
